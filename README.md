@@ -9,8 +9,16 @@ collect the statement coverage for its JUnit tests. Note that your tool should (
 method in the file system, and (3) be integrated with the Maven build system [4] so that your
 tool can be triggered by simply typing “mvn test” after changing the pom.xml file of the project
 under test. More implementation details are shown in the appendix. 
-
-
+<br/>
+CS6367_Phase2 <br/>
+Further augment the coverage collection tool implemented in Phase-1 to trace more
+information about program internal states, e.g., tracing accessible field/variable values for the
+beginning of each method execution. Then, infer the possible single-variable invariants based
+on the Daikon technique.
+o Reference:
+§ https://plse.cs.washington.edu/daikon/
+o Evaluate your tool to infer invariants for one real-world library project from
+Phase-1, such as commons-utils or joda-time
 
 NOTE:<br/>
 We did not create git repository during the project lifeycle since we were initially sharing the data over email. But as per the professor's instruction we have created the repo on 1st May, 2020 and included all the software codes along with the report. 
