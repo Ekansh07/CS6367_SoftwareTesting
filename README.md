@@ -9,7 +9,7 @@ collect the statement coverage for its JUnit tests. Note that your tool should (
 method in the file system, and (3) be integrated with the Maven build system [4] so that your
 tool can be triggered by simply typing “mvn test” after changing the pom.xml file of the project
 under test. More implementation details are shown in the appendix. 
-<br/>
+<br/><br/><br/><br/>
 CS6367_Phase2 <br/>
 Further augment the coverage collection tool implemented in Phase-1 to trace more
 information about program internal states, e.g., tracing accessible field/variable values for the
